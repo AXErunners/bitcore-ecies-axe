@@ -1,5 +1,5 @@
 {
-  "name": "bitcore-ecies-axe",
+  "name": "@axerunners/bitcore-ecies-axe",
   "version": "1.0.4",
   "description": "ECIES implemented for Bitcore-AXE.",
   "main": "index.js",
