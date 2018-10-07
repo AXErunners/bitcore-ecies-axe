@@ -1,0 +1,45 @@
+{
+  "name": "bitcore-ecies-axe",
+  "version": "1.0.4",
+  "description": "ECIES implemented for Bitcore-AXE.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "lint": "gulp lint",
+    "test": "gulp test",
+    "coverage": "gulp coverage",
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/axerunners/bitcore-ecies-axe.git"
+  },
+  "keywords": [
+    "axe",
+    "bitcore",
+    "ecies",
+    "crypto",
+    "cryptography",
+    "encryption"
+  ],
+  "author": "BitPay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/axerunners/bitcore-ecies-axe/issues"
+  },
+  "homepage": "https://github.com/axerunners/bitcore-ecies-axe",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "bitcore-build-axe": "axerunners/bitcore-build-axe",
+    "brfs": "^2.0.1",
+    "browserify": "^16.2.2",
+    "chai": "~4.1.2"
+  },
+  "dependencies": {
+    "aes": "^0.1.0",
+    "@axerunners/axecore-lib": "^1.0.0-alpha.10",
+    "bls-lib": "^0.3.4"
+  }
+}
